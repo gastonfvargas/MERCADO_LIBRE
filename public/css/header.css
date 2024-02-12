@@ -30,6 +30,7 @@ header.home-header p{
 /*----------------------------------*/
 
 header.home-header .main-nav{
+    
 }
 
 header nav.main-nav .main-list{
@@ -39,7 +40,7 @@ header nav.main-nav .main-list{
 
 header nav.main-nav ul.main-list li{
     list-style: none;
-    
+    display: none;
 }
 
 header nav.main-nav ul.main-list li a{
@@ -56,7 +57,9 @@ header nav.main-nav .second-list{
 
 header nav.main-nav ul.second-list li{
     list-style: none;
+    display: none;
 }
+
 
 header nav.main-nav ul.second-list li a{
     text-decoration: none;
@@ -79,3 +82,75 @@ header div.burger-menu i{
    padding-top: 10px;
 }
 
+/* ------ MEDIA QUERIES --------- */
+
+/* ------ TABLET --------- */
+
+@media (min-width: 361px) {
+ 
+    header{
+    }
+        
+    header.home-header{
+    }
+    
+    header.home-header .main-logo{
+    }
+    
+    header.home-header .search{
+    }
+    
+    header.home-header .search input{
+    }
+    
+    header.home-header .search button{ 
+    }
+    
+    header.home-header p{
+    }
+    
+    /*----------------------------------*/
+    
+    header.home-header .main-nav{
+        
+    }
+    
+    header nav.main-nav .main-list{
+
+    }
+    
+    header nav.main-nav ul.main-list li{
+        display: block;
+    }
+    
+    header nav.main-nav ul.main-list li a{
+    }
+    
+    /*------------*/
+    
+    header nav.main-nav .second-list{
+    }
+    
+    header nav.main-nav ul.second-list li{
+        list-style: none;
+        display: block;
+    }
+    
+    
+    header nav.main-nav ul.second-list li a{
+    }
+    
+    /*-----------------------------------*/
+    
+    header div.burger-menu{
+        display: none;
+    }
+    
+    header div.burger-menu i{
+    }
+}
+
+/* ------ DESKTOP--------- */
+@media (min-width: 769px) {
+
+}

@@ -1,0 +1,152 @@
+main.home-main{
+    background-color: var(--gris-claro);
+    padding-bottom: 20px;
+}
+
+main.home-main .home-banner{
+    width: 100%;
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
+main.home-main .last-visit{
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.home-main .last-visit h3{
+    font-size: var(--titulares);
+    color: var(--grisOscuro);
+}
+
+/*----------------------------------------*/
+
+main.home-main .last-visit .product{
+    background-color: var(--blanco);
+    margin: 50px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    /*margin: 15px 0;*/
+}
+
+main.home-main .last-visit .product .description{
+    margin: 0px 15px; 
+    padding-bottom: 5px;
+}
+
+main.home-main .last-visit .product .shipping-logo{ 
+    color: var(--verde);
+    position: relative;
+
+}
+
+main.home-main .last-visit .product .shipping-logo .fa-circle{
+    font-size: 40px;
+}
+
+main.home-main .last-visit .product .shipping-logo .fa-truck{
+    position: absolute;
+    right: 0;
+    left: 11px;
+    top: 11px;
+    bottom: 0;
+}
+
+main.home-main .product img{
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.home-main .product p.price{
+    margin: 2px auto;
+}
+
+main.home-main .product p.discount{
+    color: var(--verde);
+    margin-top: 0px;
+}
+
+main.home-main .product p.name{
+
+}
+
+/*---------------------------------------*/
+
+main.home-main section.offers{
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.home-main section.offers h3.section-title{
+  font-size: var(--titulares);
+  color: var(--grisOscuro);
+}
+
+main.home-main section.offers .product-offer{
+  background-color: var(--blanco);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 50px 0px;
+}
+
+main.home-main section.offers .product-offer .description{
+    margin: 0px 15px; 
+    padding-bottom: 5px;
+}
+
+main.home-main .offers .product-offer .shipping-logo{
+  color: var(--verde);
+  position: relative;
+}
+
+main.home-main .offers .product-offer .shipping-logo .fa-circle{
+  font-size: 40px;
+}
+
+main.home-main .offers .product-offer .shipping-logo .fa-truck{
+    position: absolute;
+    right: 0;
+    left: 11px;
+    top: 11px;
+    bottom: 0;
+}
+
+main.home-main .offers .product-offer img{
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main.home-main section.offers .product-offer .price{
+    margin: 2px auto;
+}
+
+main.home-main section.offers .product-offer .discount{
+    color: var(--verde);
+    margin-top: 0px;
+}
+
+main.home-main section.offers .product-offer .name{
+    
+}
+
+/* ------ MEDIA QUERIES --------- */
+
+/* ------ TABLET --------- */
+@media (min-width: 361px) {
+
+}
+
+/* ------ DESKTOP--------- */
+@media (min-width: 769px) {
+
+}
