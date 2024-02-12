@@ -1,0 +1,81 @@
+header{
+    background-color: var(--amarillo);
+    padding-bottom: 30px;
+}
+    
+header.home-header{
+}
+
+header.home-header .main-logo{
+    width: 30vw;
+    /*arriba - derecha - abajo - izquieda*/
+    margin: 30px 10px 10px 30px;
+}
+
+header.home-header .search{
+    /*arriba - derecha - abajo - izquieda*/
+    margin: 0px 0px 0px 30px;
+}
+
+header.home-header .search input{
+}
+
+header.home-header .search button{ 
+}
+
+header.home-header p{
+    text-align: center;
+}
+
+/*----------------------------------*/
+
+header.home-header .main-nav{
+}
+
+header nav.main-nav .main-list{
+    padding: 0;
+    margin: 0;
+}
+
+header nav.main-nav ul.main-list li{
+    list-style: none;
+    
+}
+
+header nav.main-nav ul.main-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*------------*/
+
+header nav.main-nav .second-list{
+    padding: 0;
+    margin-top: 20px;
+}
+
+header nav.main-nav ul.second-list li{
+    list-style: none;
+}
+
+header nav.main-nav ul.second-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*-----------------------------------*/
+
+header div.burger-menu{
+    background-color: var(--celeste);
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-left: 50%;
+    border-radius: 3px;
+}
+
+header div.burger-menu i{
+   color: var(--gris-claro);
+   padding-top: 10px;
+}
+
