@@ -7,20 +7,35 @@ header.home-header{
 }
 
 header.home-header .main-logo{
-    width: 30vw;
+    width: 130px;
     /*arriba - derecha - abajo - izquieda*/
-    margin: 30px 10px 10px 30px;
+    margin: 20px 0px 0px 20px;
+    display: inline;
 }
 
 header.home-header .search{
     /*arriba - derecha - abajo - izquieda*/
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 20px;
+    display: inline; 
+    border-radius: 5px;
 }
 
 header.home-header .search input{
+    height: 35px;
+    width: 36vw;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 header.home-header .search button{ 
+    height: 35px;
+    border: none;
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 header.home-header p{
@@ -30,6 +45,7 @@ header.home-header p{
 /*----------------------------------*/
 
 header.home-header .main-nav{
+    
 }
 
 header nav.main-nav .main-list{
@@ -39,7 +55,7 @@ header nav.main-nav .main-list{
 
 header nav.main-nav ul.main-list li{
     list-style: none;
-    
+    display: none;
 }
 
 header nav.main-nav ul.main-list li a{
@@ -56,7 +72,9 @@ header nav.main-nav .second-list{
 
 header nav.main-nav ul.second-list li{
     list-style: none;
+    display: none;
 }
+
 
 header nav.main-nav ul.second-list li a{
     text-decoration: none;
@@ -70,7 +88,7 @@ header div.burger-menu{
     text-align: center;
     width: 35px;
     height: 35px;
-    margin-left: 50%;
+    margin-left: 45%;
     border-radius: 3px;
 }
 
@@ -79,3 +97,188 @@ header div.burger-menu i{
    padding-top: 10px;
 }
 
+/* ------ MEDIA QUERIES --------- */
+
+/* ------ TABLET --------- */
+
+@media (min-width: 361px) {    
+
+header{
+}
+    
+header.home-header{
+    
+}
+
+header.home-header .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+header.home-header .main-logo{
+    width: 25vw;
+    display: inline;
+    margin-right: 2.5vw;
+}
+
+header.home-header .search{
+    display: inline;
+    margin-right: 2.5vw;
+}
+
+header.home-header .search input{
+    display: inline-block;
+    width: 25vw;
+
+}
+
+header.home-header .search button{ 
+    display: inline-block;
+}
+
+header.home-header p{
+    display: inline;
+    width: 25vw;
+    margin-right: 2.5vw;
+}
+
+/*----------------------------------*/
+
+header.home-header .main-nav{
+    margin: auto 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.main-nav .main-list{
+    display: inline;
+}
+
+header nav.main-nav ul.main-list li{
+    display: inline;
+    margin: auto 3px;
+}
+
+header nav.main-nav ul.main-list li a{
+    font-size: 1rem;
+}
+
+/*------------*/
+
+header nav.main-nav .second-list{
+
+}
+
+header nav.main-nav ul.second-list li{
+    list-style: none;
+    display: inline;
+    margin: auto 3px;
+}
+
+
+header nav.main-nav ul.second-list li a{
+    margin: auto 5px;
+    font-size: 1rem;
+}
+
+/*-----------------------------------*/
+
+header div.burger-menu{
+    display: none;
+}
+
+header div.burger-menu i{
+}
+}
+
+/* ------ DESKTOP--------- */
+@media (min-width: 769px) {    
+
+header{
+    padding-bottom: 5px;
+}
+    
+header.home-header{
+    
+}
+
+header.home-header .top{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+}
+
+header.home-header .main-logo{
+    width: 20vw;
+    display: inline;
+    margin-right: 2.5vw;
+}
+
+header.home-header .search{
+    display: inline;
+    margin-right: 2.5vw;
+}
+
+header.home-header .search input{
+
+}
+
+header.home-header .search button{ 
+}
+
+header.home-header p{
+    display: inline;
+    margin-right: 2.5vw;
+}
+
+/*----------------------------------*/
+
+header.home-header .main-nav{
+    margin: auto 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.main-nav .main-list{
+    display: inline;
+}
+
+header nav.main-nav ul.main-list li{
+    display: inline;
+    margin: auto 20px;
+}
+
+header nav.main-nav ul.main-list li a{
+}
+
+/*------------*/
+
+header nav.main-nav .second-list{
+    display: inline;
+}
+
+header nav.main-nav ul.second-list li{
+    list-style: none;
+    display: inline;
+    margin: auto 20px;
+}
+
+
+header nav.main-nav ul.second-list li a{
+    margin: auto 5px;
+}
+
+/*-----------------------------------*/
+
+header div.burger-menu{
+    display: none;
+}
+
+header div.burger-menu i{
+}
+}
