@@ -1,0 +1,220 @@
+@media (min-width: 0px) {
+    .main_register {
+    background-color: var(--gris-claro);
+    text-align: center;
+    width: 100vw;
+}  
+    
+    .main_register form {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_register form .intereses{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.main_register form .intereses div {
+    width: 30%;
+    display: flex;
+}
+
+.main_register form .info { 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;  
+    width: 100%;
+}
+ 
+.main_register form .info div {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.main_register form .info div input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.main_register form .subt {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 1.25rem;
+}
+
+.main_register form .info .file {
+    flex-wrap: wrap;
+}
+
+.main_register form .info .file #foto2 {
+    font-size: 71%;
+}
+
+
+.main_register form .info .file .buttons{   
+    padding: 5px;
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+}
+
+#perfil {
+    width: 16px;
+    margin: 0px 15px;
+}
+
+.submit-r {
+    background-color: var(--celeste);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+}
+
+
+.deleted-r {
+    background-color: var(--rojo);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+}
+}
+
+/*-------------------TABLET--------------------*/
+
+@media (min-width: 361px) {
+.main_register {
+    }  
+        
+.main_register form {
+}
+    
+.main_register form .intereses{
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+    
+.main_register form .intereses div {
+}
+    
+.main_register form .info {
+}
+     
+.main_register form .info div {
+} 
+    
+.main_register form .info div label {
+}
+    
+.main_register form .info div input {
+}
+
+.main_register form .subt {
+}
+    
+.main_register form .info .radio {
+}
+    
+.main_register form .info .file {
+}
+    
+.main_register form .info .file #foto {
+}
+    
+.main_register form .info .file #foto2 {
+    font-size: 100%;
+}
+    
+.main_register form .info .file .buttons {
+    justify-content: right;
+    gap: 20px;
+}
+    
+#perfil {
+}
+    
+.btn1 {
+}
+    
+.btn2 {
+}
+}
+
+/*--------------------DESKTOP-----------------------*/
+@media (min-width: 769px) {
+
+.main_register {
+}  
+        
+.main_register form {
+}
+    
+.main_register form .intereses{
+    width: 100%;
+}
+    
+.main_register form .intereses div {
+}
+    
+.main_register form .info {
+}
+     
+.main_register form .info div {
+} 
+    
+.main_register form .info div label {}
+    
+.main_register form .info div input {
+}
+.main_register form .subt {
+}
+    
+.main_register form .info .radio {
+}
+    
+.main_register form .info .file {
+}
+    
+.main_register form .info .file #foto {
+}
+    
+.main_register form .info .file #foto2 {
+}
+    
+.main_register form .info .file .buttons {
+}
+    
+.main_register form .info .file .buttons {
+}
+
+#perfil {
+}
+    
+.btn1 {
+}
+    
+.btn2 {
+}
+}
