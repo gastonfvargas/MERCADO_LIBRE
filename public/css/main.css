@@ -38,6 +38,10 @@ main.home-main .last-visit .product .description{
     padding-bottom: 5px;
 }
 
+main.home-main .last-visit .product .description{ 
+    
+}
+
 main.home-main .last-visit .product .shipping-logo{
     color: var(--verde);
     position: relative;
@@ -75,9 +79,10 @@ main.home-main .product p.discount{
     display: inline;
 }
 
-main.home-main .product p.name{
 
+main.home-main .product p.name {
 }
+
 
 /*---------------------------------------*/
 
@@ -109,18 +114,22 @@ main.home-main .offers .product-offer .shipping-logo{
     position: relative;
     flex-wrap: wrap;
     margin-left: 80%;
+    
+}
+
+main.home-main .offers .product-offer:hover .shipping-logo{
 }
 
 main.home-main .offers .product-offer .shipping-logo .fa-circle{
-  font-size: 40px;
+    font-size: 40px;
 }
 
 main.home-main .offers .product-offer .shipping-logo .fa-truck{
     position: absolute;
-    /*right: 0;
+    right: 0;
     left: 11px;
     top: 11px;
-    bottom: 0;*/
+    bottom: 0;
 }
 
 main.home-main .offers .product-offer img{
@@ -143,7 +152,6 @@ main.home-main section.offers .product-offer .discount{
 }
 
 main.home-main section.offers .product-offer .name{
-    
 }
 
 /* ------ MEDIA QUERIES --------- */
@@ -169,6 +177,7 @@ main.home-main .last-visit .product{
     display: inline-block;
     margin: 10px 15px;
     width: 40%;
+    padding-bottom: 10px;
 }
 
 main.home-main .last-visit .product .description{
@@ -200,7 +209,12 @@ main.home-main .product p.discount{
 }
 
 main.home-main .product p.name{
+    display: none;
+    transition: opacity 0.5s ease;
+}
 
+main.home-main .product p.name:hover{
+    display: none;
 }
 
 /*---------------------------------------*/
@@ -215,6 +229,7 @@ main.home-main section.offers .product-offer{
     display: inline-block;
     margin: 10px 15px;
     width: 40%;
+    padding-bottom: 10px;
 }
 
 main.home-main section.offers .product-offer .description{
@@ -222,12 +237,17 @@ main.home-main section.offers .product-offer .description{
 }
 
 main.home-main .offers .product-offer .shipping-logo{
-  color: var(--verde);
-  position: relative;
+    color: var(--verde);
+    position: relative;
+    transition: transform 1s ease;
+}
+
+main.home-main .offers .product-offer .shipping-logo:hover{
+    transform: rotate(90deg);
 }
 
 main.home-main .offers .product-offer .shipping-logo .fa-circle{
-  font-size: 40px;
+    font-size: 40px;
 }
 
 main.home-main .offers .product-offer .shipping-logo .fa-truck{
@@ -281,6 +301,11 @@ main.home-main .last-visit .product{
     margin: 10px 15px;
     width: 20vw;
     left: 100px;
+    transition: opacity 0.5s ease;
+}
+
+main.home-main .last-visit .product:hover{
+    box-shadow: 0px 0px 10px rgba(234, 201, 38, 5); 
 }
 
 main.home-main .last-visit .product .description{
@@ -288,7 +313,11 @@ main.home-main .last-visit .product .description{
 }
 
 main.home-main .last-visit .product .shipping-logo{
+    transition: transform 1s ease;
+}
 
+main.home-main .last-visit .product:hover .shipping-logo{
+    transform: rotate(90deg);
 }
 
 main.home-main .last-visit .product .shipping-logo .fa-circle{
@@ -312,7 +341,11 @@ main.home-main .product p.discount{
 }
 
 main.home-main .product p.name{
+    display: none;
+}
 
+main.home-main .product:hover p.name{
+    display: block;
 }
 
 /*---------------------------------------*/
@@ -327,6 +360,11 @@ main.home-main section.offers .product-offer{
     display: inline-block;
     margin: 10px 15px;
     width: 20vw;
+    transition: opacity 0.5s ease;
+}
+
+main.home-main section.offers .product-offer:hover{
+    box-shadow: 0px 0px 10px rgba(234, 201, 38, 5);
 }
 
 main.home-main section.offers .product-offer .description{
@@ -334,8 +372,13 @@ main.home-main section.offers .product-offer .description{
 }
 
 main.home-main .offers .product-offer .shipping-logo{
-  color: var(--verde);
-  position: relative;
+    color: var(--verde);
+    position: relative;
+    transition: transform 1s ease;
+}
+
+main.home-main .offers .product-offer:hover .shipping-logo{
+    transform: rotate(90deg);
 }
 
 main.home-main .offers .product-offer .shipping-logo .fa-circle{
@@ -369,6 +412,10 @@ main.home-main section.offers .product-offer .discount{
 }
 
 main.home-main section.offers .product-offer .name{
-    
+    display: none;
+}
+
+main.home-main section.offers .product-offer:hover .name{
+    display: block;
 }
 }

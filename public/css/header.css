@@ -79,6 +79,11 @@ header nav.main-nav ul.second-list li{
 header nav.main-nav ul.second-list li a{
     text-decoration: none;
     color: black;
+    transition: opacity 0.5s ease;
+}
+
+header nav.main-nav ul.second-list li a:hover{
+    color: #0022AA;
 }
 
 /*-----------------------------------*/

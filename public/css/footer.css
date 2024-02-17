@@ -3,6 +3,9 @@ footer.home-footer{
     margin-top: 100px;
 }
 
+footer.home-footer .options{
+}
+
 footer section{
     margin: 0px 60px;
 }
@@ -14,7 +17,6 @@ footer section i{
 }
 
 footer.home-footer .info-buy{
-
 }
 
 footer.home-footer .info-buy i{
@@ -51,7 +53,7 @@ footer.home-footer .info-send p{
 /*---------------------------------------*/
 
 footer.home-footer .info-return{
-    
+   
 }
 
 footer.info-copy .info-return i{
@@ -74,4 +76,161 @@ footer.home-footer .info-copy{
 
 footer.home-footer .info-copy p{
     margin-top: 40px;
+}
+
+/* ------ DESKTOP --------- */
+@media (min-width: 361px) {
+footer.home-footer{
+
+}
+
+footer.home-footer .options{
+
+}
+
+footer section{
+
+}
+
+footer section i{
+}
+
+footer.home-footer .info-buy{
+}
+
+footer.home-footer .info-buy i{
+    
+}
+
+footer.home-footer .info-buy h3{
+    
+}
+
+footer.home-footer .info-buy p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-send{
+    
+}
+
+footer.home-footer .info-send i{
+    
+}
+
+footer.home-footer .info-send h3{
+
+}
+
+footer.home-footer .info-send p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-return{
+   
+}
+
+footer.info-copy .info-return i{
+    
+}
+
+footer.home-footer .info-return h3{
+}
+
+footer.home-footer .info-return p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-copy{
+
+}
+
+footer.home-footer .info-copy p{
+}
+    
+}
+
+/* ------ DESKTOP --------- */
+@media (min-width: 769px) {
+footer.home-footer{
+
+}
+
+footer.home-footer .options{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section{
+
+}
+
+footer section i{
+}
+
+footer.home-footer .info-buy{
+}
+
+footer.home-footer .info-buy i{
+    
+}
+
+footer.home-footer .info-buy h3{
+    
+}
+
+footer.home-footer .info-buy p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-send{
+    
+}
+
+footer.home-footer .info-send i{
+    
+}
+
+footer.home-footer .info-send h3{
+
+}
+
+footer.home-footer .info-send p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-return{
+   
+}
+
+footer.info-copy .info-return i{
+    
+}
+
+footer.home-footer .info-return h3{
+}
+
+footer.home-footer .info-return p{
+    
+}
+
+/*---------------------------------------*/
+
+footer.home-footer .info-copy{
+    text-align: left;
+}
+
+footer.home-footer .info-copy p{
+}
+    
 }
